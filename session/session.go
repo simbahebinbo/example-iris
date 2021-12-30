@@ -1,7 +1,7 @@
 package session
 
 import (
-	"github.com/kataras/iris/sessions"
+	"github.com/kataras/iris/v12/sessions"
 )
 
 var (

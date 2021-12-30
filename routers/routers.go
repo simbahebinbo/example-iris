@@ -1,9 +1,9 @@
 package routers
 
 import (
-	"github.com/arjunajithtp/example-iris/handlers"
-	"github.com/arjunajithtp/example-iris/middlewares"
-	"github.com/kataras/iris"
+	"example-iris/handlers"
+	"example-iris/middlewares"
+	"github.com/kataras/iris/v12"
 )
 
 // Router function handles the iris routers

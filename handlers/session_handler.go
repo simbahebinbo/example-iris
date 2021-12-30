@@ -1,10 +1,9 @@
 package handlers
 
 import (
-	"github.com/arjunajithtp/example-iris/session"
+	"example-iris/session"
+	"github.com/kataras/iris/v12"
 	"net/http"
-
-	"github.com/kataras/iris"
 )
 
 // Login is where session is created

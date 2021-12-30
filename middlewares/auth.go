@@ -1,11 +1,11 @@
 package middlewares
 
 import (
-	"github.com/arjunajithtp/example-iris/session"
+	"example-iris/session"
 	"net/http"
-
-	"github.com/kataras/iris"
 )
+
+import "github.com/kataras/iris/v12"
 
 // CustomAuth is our custom authentication method
 func CustomAuth(ctx iris.Context) {

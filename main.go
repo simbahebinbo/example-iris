@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/arjunajithtp/example-iris/routers"
+	"example-iris/routers"
 )
 
 func main() {
